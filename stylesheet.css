@@ -1,0 +1,160 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container #about-us::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+.container #about-us::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+ 
+.container #about-us::-webkit-scrollbar-thumb {
+  background-color: #C0E867;
+  outline: 1px solid slategrey;
+  border-radius: 25px;
+}
+
+.container #contact-us::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+.container #contact-us::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+ 
+.container #contact-us::-webkit-scrollbar-thumb {
+  background-color: #C0E867;
+  outline: 1px solid slategrey;
+  border-radius: 25px;
+}
+
+.navbar {
+  background: #C0E867;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.navbar img {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.nav-item:hover {
+  background-color: #E6F9BC;
+  max-width: 100px;
+  max-height: 50px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.nav-link {
+  transition: 1s;
+}
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.container #logo-animation {
+  transition: 1s;
+}
+
+#logo-animation:hover {
+  transform: translateX(10%);
+}
+
+.container h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container .logo {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.container #abstract {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  transition: 1s;
+}
+
+.container #abstract:hover {
+  transform: scale(1.2);
+}
+
+.carousel {
+  margin-top: 100px;
+}
+
+.carousel-item img {
+  width: auto;
+  height: 700px;
+  max-height: 700px;
+}
+
+.carousel-caption {
+  background-color: white;
+  opacity: 0.70;
+  color: black;
+  border-radius: 25px;
+}
+
+.container #about-us {
+  margin-top: 100px;
+  border: solid #C0E867;
+  padding: 5px;
+  max-width: 600px;
+  height: 300px;
+  background: rgb(136, 78, 165);
+  opacity: 0.75;
+  color: white;
+  overflow: auto;
+  border-radius: 25px;
+}
+
+.container #about-us h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.container #contact-us {
+  margin-top: 100px;
+  border: solid #C0E867;
+  padding: 5px;
+  max-width: 600px;
+  height: 300px;
+  background: rgb(136, 78, 165);
+  opacity: 0.75;
+  color: white;
+  overflow: auto;
+  border-radius: 25px;
+}
+
+.container #contact-us h2 {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 100px;
+  color: #C0E867;
+  width: 250px;
+}
+
+.container footer {
+  transition: 1s;
+}
+
+.container footer:hover {
+  color: rgb(136, 78, 165);
+}
